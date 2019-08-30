@@ -1,7 +1,5 @@
-# dart-jwt-example
-An example project demonstrating how to implement basic JWT authentication in Dart
-
-![](preview.gif)
+# publisher-tools-api
+API codebase for Publisher Tools - online marketing and publishing platform
 
 ## Getting Started
 To run this project:
@@ -12,9 +10,6 @@ To run this project:
 
 ## Testing
 * start the server with `$ dart bin/server.dart`
-* try an API call with `$ curl localhost:3000/hello` (should be rejected)
-* authenticate with `$ curl localhost:3000/auth -d '{"username":"test", "password":"insecure"}'` (should return a JWT, copy this)
-* retry API call with `$ curl localhost:3000/hello -H "Authorization: Bearer YOUR_TOKEN"` (should return OK)
 
 ## Contributions
 Suggestions, ideas, comments, and pull requests are welcome. Thanks!
